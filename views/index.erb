@@ -1,3 +1,14 @@
 <h1> Welcome to SHITTER  </h1>
 
 <h2> THIS IS HIGHLY UNLIKELY TO WORK, AND MAY BE CLASSED AS BULLSHIT </h2>
+
+
+Latest peeps
+
+<ul>
+	<% @peeps.each do |peep| %>
+		<li> Subject: <%= peep.title %> </li>
+		<li> Peep:    <%= peep.message %></li>
+	<% end %>
+</ul>
+
