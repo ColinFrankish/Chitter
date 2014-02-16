@@ -7,7 +7,7 @@ gem 'data_mapper'
 gem 'dm-postgres-adapter'
 gem 'dm-core'
 gem 'dm-timestamps'
-
+gem 'bcrypt-ruby'
 
 group :development, :test do 
   gem "rspec"
