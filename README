@@ -11,3 +11,26 @@ Users must be able to post messages on chitter, messages an be viewed when not l
 All peeps ('tweets') should be seen in a chronological order. 
 
 So that should be simple..........
+
+This includes virtually no styling, that is not the purpose of this project. 
+Styling may be added later for practise, this is about functionality. 
+
+Sinatra used, and also postgres as intro to databases. 
+
+Gems used:
+gem 'sinatra'
+gem 'data_mapper'
+gem 'dm-postgres-adapter'
+gem 'dm-core'
+gem 'dm-timestamps'
+gem 'bcrypt-ruby'
+
+group :development, :test do 
+  gem "rspec"
+  gem 'database_cleaner'
+  gem 'capybara'
+end
+
+`````
+run using 'shotgun' from the terminal, in localhost 9393. 
+`````
