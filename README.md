@@ -36,8 +36,8 @@ run using 'shotgun controller.rb' from the terminal, in localhost 9393.
 `````
 
 ------------------------
-Further work could be done on this project. 
+Further work could be done on this project.
+
 1, create routes between users sign up and main chitter homepage.
 2, define what signed in users can do vs unsigned in users ?
 3, styling
-------------------------
